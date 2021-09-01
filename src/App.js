@@ -5,7 +5,7 @@ import CoolButton from './components/coolbutton/CoolButton';
 
 import React from 'react';
 
-export default class App extends React.Component() {
+export default class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -15,8 +15,8 @@ export default class App extends React.Component() {
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
 
         
-        <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-        <CoolButton isSmall isSuccess>Button 2</CoolButton>
+        <CoolButton/>
+       
 
       </div>
     );
