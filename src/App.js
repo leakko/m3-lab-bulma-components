@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from "./components/navbar/Navbar"
 import FormField from "./components/formfield/FormField"
-import Button from './components/button/button';
-import Counter from './components/counter/counter'
+import CoolButton from './components/coolbutton/CoolButton';
+
 import React from 'react';
 
 export default class App extends React.Component() {
@@ -14,8 +14,10 @@ export default class App extends React.Component() {
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
 
-        <Button />
-        <Counter />
+        
+        <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+        <CoolButton isSmall isSuccess>Button 2</CoolButton>
+
       </div>
     );
   }

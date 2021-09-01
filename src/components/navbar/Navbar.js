@@ -2,7 +2,8 @@ import 'bulma/css/bulma.css';
 import "./Navbar.css"
 
 export default function Navbar () {
-    return (
+  return (
+    
         <nav class="navbar is-light">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -73,6 +74,7 @@ export default function Navbar () {
       </div>
     </div>
   </div>
-</nav>
+      </nav>
+    
     )
 }
